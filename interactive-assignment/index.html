@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Interactive Webpage — Working Demo</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>✨ Bringing Web Pages to Life ✨</h1>
+
+  <!-- Part 1: CSS Animations -->
+  <button id="toggle-btn" class="btn">Toggle Box</button>
+  <div id="box" class="box hidden"></div>
+
+  <!-- Part 3: Modal -->
+  <button id="open-modal" class="btn">Open Modal</button>
+
+  <div id="modal" class="modal" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+      <p>This is a modal popup 🎉</p>
+      <button id="close-modal" class="btn">Close</button>
+    </div>
+  </div>
+
+  <!-- script placed with defer so it runs after parse -->
+  <script src="script.js" defer></script>
+</body>
+</html>
+
